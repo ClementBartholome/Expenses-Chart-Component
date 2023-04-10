@@ -18,8 +18,8 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: Add solution URL here
-- Live Site URL: Add live site URL here
+- Solution URL: https://www.frontendmentor.io/solutions/expenses-chart-component-solution-l7wnJB-eAC
+- Live Site URL: https://clementbartholome.github.io/Expenses-Chart-Component/
 
 ## Author
 
