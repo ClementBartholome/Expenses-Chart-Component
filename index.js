@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-undef */
 const charts = document.getElementById("charts")
@@ -14,5 +15,21 @@ fetch('data.json')
         </div>
     `
         }
+        function highlightCurrentDay() {
+            const now = new Date();
+            const dayOfWeek = now.getDay() -1;
+          
+            const containers = document.querySelectorAll('.container');
+            containers.forEach((container, index) => {
+              if (index === dayOfWeek) {
+                container.classList.add('current-day');
+              }
+            });
+          }
+          highlightCurrentDay();
     })
 
+   
+      
+    
+    

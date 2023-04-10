@@ -90,9 +90,8 @@ margin-top: 1.3rem;}
     margin-top: 0.27rem;
 }
 
-.container:nth-child(3) > .chart {
-    background-color: var(--cyan);
-}
+.current-day > .chart { background-color: var(--cyan); }
+
 
 .container {
     display: flex;
@@ -114,24 +113,19 @@ margin-top: 1.3rem;}
 
 .chart:hover
     {
-    opacity: 0.8;
-  }
+    opacity: 0.7;
+}
   
 .chart:hover + .amount {
     visibility: visible;
-  }
+}
+
+hr { opacity: 0.3;}
 
 /* Footer */
 
 .attribution { font-size: 0.61rem; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
-/* @media screen and (max-width:768px){
-    html {
-        font-size: 16px;
-    }
-}
-*/
 
 @media screen and (max-width: 576px){
     html {
