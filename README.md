@@ -14,6 +14,7 @@ Users should be able to:
 
 ## Screenshot
 
+![screenshot](./images/screen.png)
 
 ## Links
 
